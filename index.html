@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinicius | Portifolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/dark.css">
+</head>
+<body>
+    <header id="header-top">
+        <div class="conteiner-into-header">
+            <h1>Vinicius</h1>
+            <p>Desenvolvedor Web e App FullStack</p>
+            <div id="burger">
+                <div id="Linha1"></div>
+                <div id="Linha2"></div>
+                <div id="Linha3"></div>
+            </div>
+        </div>
+    </header>
+    <nav id="nav-subtop">
+        <div class="conteiner-into-nav">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li>
+                    <button type="button" aria-label="Toggle menu" id="chance-dark-light">
+                        <img src="./assets/icons/sun.png" alt="" width="30px">
+                    </button>
+                </li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p class="hidden-item-p">Desenvolvedor Web e App FullStack</p>
+    <main class="main-conteiner-sections">
+        <section id="sobre">
+            <img src="./assets/foto.gif" alt="Foto" id="profile-photo">
+            <div class="apresentacao">
+                <div class="titulo-sobre">
+                    <h3>Olá, sou<h3 class="names">Vinicius</h3></h3>
+                </div>
+                <div class="sobre-mim">
+                    <p>um desenvolvedor fullstack especializado em criar experiências digitais incríveis tanto para web quanto para aplicativos. Minha jornada no desenvolvimento começou com um gosto por tecnologia e uma curiosidade por entender como as coisas funcionam por trás das telas.</p>
+                </div>
+                <div class="social-midias">
+                    <ul>
+                        <li><a href=""><img src="./assets/icons/instagram.png" alt="Instagram" width="25px"></a></li>
+                        <li><a href=""><img src="./assets/icons/linkedin.png" alt="Linkedin" width="25px"></a></li>
+                        <li><a href=""><img src="./assets/icons/twitter.png" alt="Twitter" width="25px"></a></li>
+                        <li><a href=""><img src="./assets/icons/github.png" alt="Github" width="25px"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <section id="habilidades">
+            <div class="conteiner-hab">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li><img src="./assets/icons/html.png" alt="html" width="50px"></li>
+                    <li><img src="./assets/icons/css-3.png" alt="css" width="50px"></li>
+                    <li><img src="./assets/icons/sass.png" alt="sass" width="50px"></li>
+                    <li><img src="./assets/icons/js.png" alt="js" width="40px"></li>
+                    <li><img src="./assets/icons/php-programming-language.png" alt="php" width="50px"></li>
+                    <li><img src="./assets/icons/mysql.png" alt="sql" width="50px"></li>
+                </ul>
+            </div>
+        </section>
+    
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="galeria-projetos">
+                <div class="projeto" id="Armario">
+                    <h3>MEU ARMARIO</h3>
+                    <p>Projeto simples ultilizando linguagem PHP com as funcionalidades encontradas em todo e-commerce e com diversas validações</p>
+                </div>
+                <div class="projeto" id="Journey">
+                    <h3><img src="./assets/icons/paracaio.png" alt="" width="150px"></h3>
+                    <p>Journey foi um projeto para conclusão de curso na Etec de itaquera na qual ultilizou de linguagem de programação o PHP e Javacript para API com Node.js</p>
+                </div>
+                <div class="projeto" id="Gallery">
+                    <h3>MyGallery</h3>
+                    <p>Um projeto bem estruturado ultilizando API feita em Node.js com Javacript com diversos Ações e funcionalidades de um site completo</p>
+                </div>
+                <div class="projeto" id="DayNote">
+                    <h3>DayNote</h3>
+                    <p>Um projeto Simples focado no CRUD para estudos de API em Javacript de um Bloco de Notas Web com diversas funcionalidades e funções</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="contato">
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer id="Fotter-page">
+        <div class="conteiner-footer">
+            <p>Copyright © 2024-2024 All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body.dark-mode {
+    background: #0a0c0d;
+    color: #e8ecef;
+}
+
+body.dark-mode a {
+    color: #e8ecef;
+}
+
+body.dark-mode .conteiner-hab ul li img{
+    filter: invert(100%);
+}
+
+body.dark-mode .social-midias ul li a img{
+    filter: invert(100%);
+}
+
+body.dark-mode .conteiner-hab{
+    box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;
+}
+
+
+body.dark-mode #header-top .conteiner-into-header {
+    background: #0a0c0d;
+    
+}
+body.dark-mode #header-top .conteiner-into-header p{
+    color: #e8ecef
+}
+
+body.dark-mode #nav-subtop .conteiner-into-nav {
+    background: #cad2d6;
+}
+
+body.dark-mode .main-conteiner-sections {
+    background: #161d20;
+}
+
+body.dark-mode .main-conteiner-sections #projetos {
+    background: #0a0c0d;
+}
+
+body.dark-mode #Fotter-page{
+    background: #161d20;
+}
+
+body.dark-mode #Armario h3{
+    color: black;
+}
+
+body.dark-mode #Gallery h3{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+body.dark-mode #burger div {
+    background-color: rgb(255, 255, 255);
+}

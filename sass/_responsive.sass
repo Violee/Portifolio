@@ -1,0 +1,12 @@
+$tablet-max-w: 1024px
+$tablet-min-w: 768px
+$mobile-max-w: 767px
+$mobile-min-w: 320px
+
+@mixin mobile
+    @media (max-width: #{$mobile-max-w}) and (min-width: #{$mobile-min-w})
+        @content
+
+@mixin tablet
+    @media (max-width: #{$tablet-max-w}) and (min-width: #{$tablet-min-w})
+        @content
